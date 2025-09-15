@@ -4,10 +4,9 @@
   "name": "Mint Starter Kit",
   "colors": {
     "primary": "#16A34A",
-    "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/public/favicon.png",
   "navigation": {
     "tabs": [
       {
@@ -71,19 +70,19 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
+          "anchor": "Website",
           "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "icon": "globe"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "Status",
+          "href": "http://status.xahosting.co/",
+          "icon": "chart-area"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Support",
+          "href": "https://billing.xahosting.co/tickets",
+          "icon": "life-buoy"
         }
       ]
     }
