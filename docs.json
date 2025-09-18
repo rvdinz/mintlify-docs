@@ -9,6 +9,7 @@
   },
   "seo": {
     "metatags": {
+
       "theme-color": "#E759FF",
       "title": "XA Hosting Documentation",
       "description": "Access detailed XA Hosting documentation including guides, tutorials, and reference materials.",
@@ -25,14 +26,12 @@
       "og:description": "Access detailed XA Hosting documentation including guides, tutorials, and reference materials.",
       "og:image": "/public/assets/banner.png",
       "og:image:alt": "XA Hosting Documentation",
-      "og:site_name": "XA Hosting",
 
       "twitter:card": "summary_large_image",
       "twitter:domain": "xahosting.co",
       "twitter:url": "https://docs.xahosting.co",
       "twitter:title": "XA Hosting Documentation",
-      "twitter:description": "Access detailed XA Hosting documentation including guides, tutorials, and reference materials.",
-      "twitter:image": "/public/assets/banner.png"
+      "twitter:description": "Access detailed XA Hosting documentation including guides, tutorials, and reference materials."
     }
   },
   "favicon": "/public/favicon.png",
