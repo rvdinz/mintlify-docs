@@ -23,7 +23,7 @@
       "og:url": "https://docs.xahosting.co/",
       "og:title": "XA Hosting Documentation",
       "og:description": "Access detailed XA Hosting documentation including guides, tutorials, and reference materials.",
-      "og:image": "/public/branding/banner.png",
+      "og:image": "/public/assets/banner.png",
       "og:image:alt": "XA Hosting Documentation",
       "og:site_name": "XA Hosting",
 
@@ -32,7 +32,7 @@
       "twitter:url": "https://xahosting.co",
       "twitter:title": "XA Hosting Documentation",
       "twitter:description": "Access detailed XA Hosting documentation including guides, tutorials, and reference materials.",
-      "twitter:image": "/public/branding/banner.png"
+      "twitter:image": "/public/assets/banner.png"
     }
   },
   "favicon": "/public/favicon.png",
