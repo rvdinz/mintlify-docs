@@ -7,6 +7,34 @@
     "light": "#E759FF",
     "dark": "#E759FF"
   },
+  "seo": {
+  "metatags": {
+      "theme-color": "#D86BF7",
+      "title": "XA Hosting Documentation",
+      "description": "Explore the XA Hosting documentation. Find setup guides, configuration instructions, FAQs, and resources to help you get the most out of your hosting services.",
+      "keywords": "premium hosting, zero downtime, ddos protection, instant setup, worldwide servers, mod support, plugin support, lag free, 24/7 support, affordable pricing, rust servers, minecraft servers, terraria servers, cheap root servers, scalable hosting, ultra fast, high performance, reliable servers, dedicated resources, easy control panel, game hosting, server rental, pay per gb",
+      "robots": "index, follow",
+      "charset": "utf-8",
+      "language": "English",
+      "author": "XA Hosting",
+      "canonical": "https://docs.xahosting.co/",
+      
+      "og:type": "website",
+      "og:url": "https://docs.xahosting.co/",
+      "og:title": "XA Hosting Documentation",
+      "og:description": "Access detailed XA Hosting documentation including guides, tutorials, and reference materials.",
+      "og:image": "/public/branding/banner.png",
+      "og:image:alt": "XA Hosting Documentation",
+      "og:site_name": "XA Hosting",
+
+      "twitter:card": "summary_large_image",
+      "twitter:domain": "xahosting.co",
+      "twitter:url": "https://xahosting.co",
+      "twitter:title": "XA Hosting Documentation",
+      "twitter:description": "Read the XA Hosting documentation for setup instructions, FAQs, and technical guidance.",
+      "twitter:image": "/public/branding/banner.png"
+    }
+  },
   "favicon": "/public/favicon.png",
   "navigation": {
     "tabs": [
