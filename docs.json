@@ -1,68 +1,97 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "maple",
+  "name": "XA Hosting Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "dark": "#15803D"
+    "primary": "#E759FF",
+    "light": "#E759FF",
+    "dark": "#E759FF"
   },
   "favicon": "/public/favicon.png",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Overview",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Overview",
+            "pages": ["index"]
+          }
+        ]
+      },
+      {
+        "tab": "Account & Portal",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": ["portal/get-started"]
+          },
+          {
+            "group": "Account",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "portal/account/plans",
+              "portal/account/upgrade-downgrade",
+              "portal/account/suspension",
+              "portal/account/cancel",
+              "portal/account/2fa"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Billing",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "portal/billing/refunds",
+              "portal/billing/custom-plans",
+              "portal/billing/partnerships"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Game Panel",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Overview",
             "pages": [
-              "api-reference/introduction"
+              "games/get-started",
+              "games/server-setup",
+              "games/optimazation",
+              "games/sftp"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Minecraft",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "games/minecraft/install-mods",
+              "games/minecraft/install-plugins",
+              "games/minecraft/custom-worlds",
+              "games/minecraft/command-blocks",
+              "games/minecraft/whitelist",
+              "games/minecraft/voice-chat",
+              "games/minecraft/motd",
+              "games/minecraft/server-icon",
+              "games/minecraft/resource-packs"
             ]
+          },
+          {
+            "group": "Server Management",
+            "pages": [
+              "games/management/console",
+              "games/management/database",
+              "games/management/backups"
+            ]
+          },
+          {
+            "group": "Advanced",
+            "pages": ["games/advanced/domains"]
+          }
+        ]
+      },
+      {
+        "tab": "Hardware",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": ["hardware/overview", "hardware/identifier" ]
           }
         ]
       }
@@ -71,7 +100,7 @@
       "anchors": [
         {
           "anchor": "Website",
-          "href": "https://mintlify.com/docs",
+          "href": "https://xahosting.co/",
           "icon": "globe"
         },
         {
@@ -82,45 +111,34 @@
         {
           "anchor": "Support",
           "href": "https://billing.xahosting.co/tickets",
-          "icon": "life-buoy"
+          "icon": "life-ring"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/public/xah-text-black-refined.png",
+    "dark": "/public/xah-text-refined.png",
+    "href": "https://xahosting.co/"
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Billing Portal",
+        "href": "https://billing.xahosting.co/login"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Trustpilot",
+      "href": "https://www.trustpilot.com/review/xahosting.co"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/xahosting",
+      "github": "https://github.com/XAHosting",
+      "discord": "https://discord.xahosting.co/"
     }
   }
 }

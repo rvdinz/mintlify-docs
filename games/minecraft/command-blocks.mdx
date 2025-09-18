@@ -1,0 +1,33 @@
+--- 
+title: 'Command Blocks' 
+description: 'Learn how to enable command blocks on your XA Hosting Server.' 
+icon: 'command' 
+---
+<Steps>
+    <Step title="Open server.properties">
+    - Go to your **File** in the game panel.  
+    - Locate the `server.properties` file for your server.
+    </Step>
+
+    <Step title="Editing the lines">
+    - Find the `enable-command-block` field inside the file.  
+    - Replace `false` with `true`. (Mostly found in Line 11). For example:
+
+    <CodeGroup>
+
+    ```javascript server.proparties
+    enable-command-block=true
+    ```
+
+    </CodeGroup>
+    </Step>
+
+    <Step title="Save and Restart">
+    - Save the `server.properties` file.  
+    - Restart your server to apply the changes.
+    </Step>
+</Steps>
+
+<Check>
+    You can successfully use commands blocks in your Minecraft Server.
+</Check>

@@ -1,0 +1,64 @@
+---
+title: 'SFTP'
+description: 'Mintlify gives you complete control over the look and feel of your documentation using the docs.json file'
+icon: 'file'
+---
+
+## Quick Launch
+Easily connect to your server with a single click from the panel.
+<Steps>
+  <Step title="Download an SFTP Client">
+    Choose and install one of the following SFTP clients:
+
+    - **[WinSCP](https://winscp.net/eng/index.php)**
+    - **[FileZilla](https://filezilla-project.org/)**
+  </Step>
+  <Step title="Launch SFTP from the Panel">
+    - Go to our **[game panel](https://panel.xahosting.co/)**, log in, and click the server you want to SFTP in.
+    - Navigate to **Settings**.
+    - Click the **Launch STFP** button.
+  </Step>
+</Steps>
+
+<Warning>If this doesn’t work, you can find a more in-depth tutorial below.</Warning>
+
+## Manual Setup
+Step-by-step instructions for connecting using your SFTP client and credentials.
+
+<Steps>
+  <Step title="Download an SFTP Client">
+    Choose and install one of the following SFTP clients:
+
+    - **[WinSCP](https://winscp.net/eng/index.php)**
+    - **[FileZilla](https://filezilla-project.org/)**
+  </Step>
+  <Step title="Retrieve Your SFTP Credentials">
+    Log in to the XA Hosting server panel. Navigate to your server’s **Settings** section and locate your SFTP details. These include:
+
+    - **Host** (e.g., fn1.gs.xahosting.co)
+    - **Username** (e.g., johndoe.15kf9le6)
+    - **Port** (e.g., 2022)
+    - **Password** (your panel account password)
+  </Step>
+  <Step title="Connect Using Your SFTP Client">
+    **For FileZilla:**
+    1. Open FileZilla.
+    2. Enter your credentials in the top toolbar:
+       - Host: Your server’s SFTP address (e.g., fn1.gs.xahosting.co)
+       - Username: Your full username (including the short server ID)
+       - Password: Your panel password
+       - Port: The provided port (e.g., 2022)
+    3. Click **Quickconnect** to establish the connection.
+
+    **For WinSCP:**
+    1. Open WinSCP and select **New Session**.
+    2. Fill in the fields:
+       - File Protocol: SFTP
+       - Host name: Your server’s SFTP address
+       - Port number: The provided port
+       - User name: Your full username
+       - Password: Your panel password
+    3. Click **Login** to connect.
+  </Step>
+</Steps>
+
