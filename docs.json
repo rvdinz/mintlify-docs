@@ -8,7 +8,8 @@
     "dark": "#E759FF"
   },
   "icons": {
-    "library": "fontawesome"
+    "library": "fontawesome",
+    "iconType": "solid"
   },
   "seo": {
     "metatags": {
@@ -85,17 +86,17 @@
             ]
           },
           {
-            "group": "Minecraft",
+            "group": "Minecraft: Java Edition",
             "pages": [
-              "games/java/install-mods",
-              "games/java/install-plugins",
-              "games/java/custom-worlds",
-              "games/java/command-blocks",
-              "games/java/whitelist",
-              "games/java/voice-chat",
-              "games/java/motd",
-              "games/java/server-icon",
-              "games/java/resource-packs"
+              "games/mc/java/install-mods",
+              "games/mc/java/install-plugins",
+              "games/mc/java/custom-worlds",
+              "games/mc/java/command-blocks",
+              "games/mc/java/whitelist",
+              "games/mc/java/voice-chat",
+              "games/mc/java/motd",
+              "games/mc/java/server-icon",
+              "games/mc/java/resource-packs"
             ]
           },
           {
