@@ -9,28 +9,24 @@
   },
   "seo": {
     "metatags": {
-
-      "theme-color": "#E759FF",
-      "title": "XA Hosting Documentation",
+      "theme-color": "#FF40E5",
       "description": "Access detailed XA Hosting documentation including guides, tutorials, and reference materials.",
-      "keywords": "premium hosting, zero downtime, ddos protection, instant setup, worldwide servers, mod support, plugin support, lag free, 24/7 support, affordable pricing, rust servers, minecraft servers, terraria servers, cheap root servers, scalable hosting, ultra fast, high performance, reliable servers, dedicated resources, easy control panel, game hosting, server rental, pay per gb",
+      "keywords": "Best Minecraft Server Hosting, Cheap Game Servers, Instant Minecraft Setup, Bedrock & Java Edition Hosting, Rust Server Rental, Powerful Ryzen 9 Servers, NVMe SSD Game Hosting, Low Ping Servers Worldwide, DDoS Protected Game Hosting, 24/7 Live Support, Modded Minecraft Hosting, Premium Server Performance, USA EU Asia Server Locations, Affordable Hosting For Gamers",
       "robots": "index, follow",
-      "charset": "utf-8",
-      "language": "English",
       "author": "XA Hosting",
       "canonical": "https://docs.xahosting.co/",
       
+      "og:title": "Minecraft Server Hosting | XA Hosting Documentation",
+      "og:description": "Access detailed XA Hosting documentation including guides, tutorials, and reference materials.",
       "og:type": "website",
       "og:url": "https://docs.xahosting.co/",
-      "og:title": "XA Hosting Documentation",
-      "og:description": "Access detailed XA Hosting documentation including guides, tutorials, and reference materials.",
-      "og:image": "/public/assets/banner.png",
-      "og:image:alt": "XA Hosting Documentation",
-
+      "og:image:alt": "XA Hosting Documentation - Fast. Reliable. Game-Ready.",
+      "og:site_name": "XA Hosting",
+      
       "twitter:card": "summary_large_image",
-      "twitter:domain": "xahosting.co",
+      "twitter:domain": "docs.xahosting.co",
       "twitter:url": "https://docs.xahosting.co",
-      "twitter:title": "XA Hosting Documentation",
+      "twitter:title": "Minecraft Server Hosting | XA Hosting Documentation",
       "twitter:description": "Access detailed XA Hosting documentation including guides, tutorials, and reference materials."
     }
   },
