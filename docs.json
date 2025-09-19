@@ -7,6 +7,9 @@
     "light": "#E759FF",
     "dark": "#E759FF"
   },
+  "icons": {
+    "library": "fontawesome"
+  },
   "seo": {
     "metatags": {
       "theme-color": "#E759FF",
