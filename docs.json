@@ -87,15 +87,15 @@
           {
             "group": "Minecraft",
             "pages": [
-              "games/minecraft/install-mods",
-              "games/minecraft/install-plugins",
-              "games/minecraft/custom-worlds",
-              "games/minecraft/command-blocks",
-              "games/minecraft/whitelist",
-              "games/minecraft/voice-chat",
-              "games/minecraft/motd",
-              "games/minecraft/server-icon",
-              "games/minecraft/resource-packs"
+              "games/java/install-mods",
+              "games/java/install-plugins",
+              "games/java/custom-worlds",
+              "games/java/command-blocks",
+              "games/java/whitelist",
+              "games/java/voice-chat",
+              "games/java/motd",
+              "games/java/server-icon",
+              "games/java/resource-packs"
             ]
           },
           {
