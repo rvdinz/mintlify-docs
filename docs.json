@@ -8,8 +8,7 @@
     "dark": "#E759FF"
   },
   "icons": {
-    "library": "fontawesome",
-    "iconType": "solid"
+    "library": "fontawesome"
   },
   "seo": {
     "metatags": {
@@ -20,14 +19,14 @@
       "author": "XA Hosting",
       "canonical": "https://docs.xahosting.co/",
       
-      "og:title": "Minecraft Server Hosting | XA Hosting Documentation",
+      "og:title": "XA Hosting Documentation",
       "og:description": "Access detailed XA Hosting documentation including guides, tutorials, and reference materials.",
       "og:type": "website",
       "og:url": "https://docs.xahosting.co/",
       "og:image:alt": "XA Hosting Documentation",
       "og:site_name": "XA Hosting",
       
-      "twitter:card": "summary_large_image",
+      
       "twitter:domain": "docs.xahosting.co",
       "twitter:url": "https://docs.xahosting.co",
       "twitter:title": "XA Hosting Documentation",
@@ -88,15 +87,12 @@
           {
             "group": "Minecraft: Java Edition",
             "pages": [
-              "games/minecraft/java/install-mods",
               "games/minecraft/java/install-plugins",
               "games/minecraft/java/custom-worlds",
               "games/minecraft/java/command-blocks",
               "games/minecraft/java/whitelist",
-              "games/minecraft/java/voice-chat",
               "games/minecraft/java/motd",
-              "games/minecraft/java/server-icon",
-              "games/minecraft/java/resource-packs"
+              "games/minecraft/java/server-icon"
             ]
           },
           {
@@ -110,6 +106,17 @@
           {
             "group": "Advanced",
             "pages": ["games/advanced/domains"]
+          }
+        ]
+      },
+      {
+        "tab": "Troubleshooting & FAQ",
+        "groups": [
+          {
+            "group": "FAQ",
+            "pages": [
+              "faq/general"
+            ]
           }
         ]
       },
