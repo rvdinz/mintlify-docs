@@ -9,7 +9,7 @@
   },
   "seo": {
     "metatags": {
-      "theme-color": "#FF40E5",
+      "theme-color": "#E759FF",
       "description": "Access detailed XA Hosting documentation including guides, tutorials, and reference materials.",
       "keywords": "Best Minecraft Server Hosting, Cheap Game Servers, Instant Minecraft Setup, Bedrock & Java Edition Hosting, Rust Server Rental, Powerful Ryzen 9 Servers, NVMe SSD Game Hosting, Low Ping Servers Worldwide, DDoS Protected Game Hosting, 24/7 Live Support, Modded Minecraft Hosting, Premium Server Performance, USA EU Asia Server Locations, Affordable Hosting For Gamers",
       "robots": "index, follow",
@@ -20,13 +20,13 @@
       "og:description": "Access detailed XA Hosting documentation including guides, tutorials, and reference materials.",
       "og:type": "website",
       "og:url": "https://docs.xahosting.co/",
-      "og:image:alt": "XA Hosting Documentation - Fast. Reliable. Game-Ready.",
+      "og:image:alt": "XA Hosting Documentation",
       "og:site_name": "XA Hosting",
       
       "twitter:card": "summary_large_image",
       "twitter:domain": "docs.xahosting.co",
       "twitter:url": "https://docs.xahosting.co",
-      "twitter:title": "Minecraft Server Hosting | XA Hosting Documentation",
+      "twitter:title": "XA Hosting Documentation",
       "twitter:description": "Access detailed XA Hosting documentation including guides, tutorials, and reference materials."
     }
   },
