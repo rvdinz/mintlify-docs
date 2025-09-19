@@ -88,15 +88,15 @@
           {
             "group": "Minecraft: Java Edition",
             "pages": [
-              "games/mc/java/install-mods",
-              "games/mc/java/install-plugins",
-              "games/mc/java/custom-worlds",
-              "games/mc/java/command-blocks",
-              "games/mc/java/whitelist",
-              "games/mc/java/voice-chat",
-              "games/mc/java/motd",
-              "games/mc/java/server-icon",
-              "games/mc/java/resource-packs"
+              "games/minecraft/java/install-mods",
+              "games/minecraft/java/install-plugins",
+              "games/minecraft/java/custom-worlds",
+              "games/minecraft/java/command-blocks",
+              "games/minecraft/java/whitelist",
+              "games/minecraft/java/voice-chat",
+              "games/minecraft/java/motd",
+              "games/minecraft/java/server-icon",
+              "games/minecraft/java/resource-packs"
             ]
           },
           {
