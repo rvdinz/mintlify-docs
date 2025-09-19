@@ -84,9 +84,15 @@
           {
             "group": "Minecraft",
             "pages": [
+              "games/minecraft/install-mods",
+              "games/minecraft/install-plugins",
+              "games/minecraft/custom-worlds",
               "games/minecraft/command-blocks",
+              "games/minecraft/whitelist",
+              "games/minecraft/voice-chat",
               "games/minecraft/motd",
-              "games/minecraft/server-icon"
+              "games/minecraft/server-icon",
+              "games/minecraft/resource-packs"
             ]
           },
           {
