@@ -24,13 +24,14 @@
       "og:type": "website",
       "og:url": "https://docs.xahosting.co/",
       "og:image:alt": "XA Hosting Documentation",
+      "og:image": "/public/assets/banner.png",
       "og:site_name": "XA Hosting",
-      
       
       "twitter:domain": "docs.xahosting.co",
       "twitter:url": "https://docs.xahosting.co",
       "twitter:title": "XA Hosting Documentation",
-      "twitter:description": "Access detailed XA Hosting documentation including guides, tutorials, and reference materials."
+      "twitter:description": "Access detailed XA Hosting documentation including guides, tutorials, and reference materials.",
+      "twitter:image": "/public/assets/banner.png"
     }
   },
   "favicon": "/public/favicon.png",
