@@ -17,22 +17,22 @@
       "keywords": "Best Minecraft Server Hosting, Cheap Game Servers, Instant Minecraft Setup, Bedrock & Java Edition Hosting, Rust Server Rental, Powerful Ryzen 9 Servers, NVMe SSD Game Hosting, Low Ping Servers Worldwide, DDoS Protected Game Hosting, 24/7 Live Support, Modded Minecraft Hosting, Premium Server Performance, USA EU Asia Server Locations, Affordable Hosting For Gamers",
       "robots": "index, follow",
       "author": "XA Hosting",
-      "canonical": "https://docs.xahosting.co/",
+      "canonical": "https://docs.xahosting.com/",
       
       "og:title": "XA Hosting Documentation",
       "og:description": "Access detailed XA Hosting documentation including guides, tutorials, and reference materials.",
       "og:type": "website",
-      "og:url": "https://docs.xahosting.co/",
+      "og:url": "https://docs.xahosting.com/",
       "og:image:alt": "XA Hosting Documentation",
       "og:image": "https://docs.xahosting.co/public/assets/banner.png",
       "og:site_name": "XA Hosting",
       "og:color": "#E759FF",
       
-      "twitter:domain": "docs.xahosting.co",
-      "twitter:url": "https://docs.xahosting.co",
+      "twitter:domain": "docs.xahosting.com",
+      "twitter:url": "https://docs.xahosting.com",
       "twitter:title": "XA Hosting Documentation",
       "twitter:description": "Access detailed XA Hosting documentation including guides, tutorials, and reference materials.",
-      "twitter:image": "https://docs.xahosting.co/public/assets/banner.png"
+      "twitter:image": "https://docs.xahosting.com/public/assets/banner.png"
     }
   },
   "favicon": "/public/favicon.png",
@@ -141,12 +141,12 @@
         },
         {
           "anchor": "Status",
-          "href": "http://status.xahosting.co/",
+          "href": "http://status.xahosting.com/",
           "icon": "chart-area"
         },
         {
           "anchor": "Support",
-          "href": "https://billing.xahosting.co/tickets",
+          "href": "https://billing.xahosting.com/tickets",
           "icon": "life-ring"
         }
       ]
@@ -161,7 +161,7 @@
     "links": [
       {
         "label": "Billing Portal",
-        "href": "https://billing.xahosting.co/login"
+        "href": "https://billing.xahosting.com/login"
       }
     ],
     "primary": {
@@ -174,7 +174,7 @@
     "socials": {
       "x": "https://x.com/xahosting",
       "github": "https://github.com/XAHosting",
-      "discord": "https://discord.xahosting.co/"
+      "discord": "https://discord.xahosting.com/"
     }
   }
 }

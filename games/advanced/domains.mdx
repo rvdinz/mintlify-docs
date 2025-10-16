@@ -1,79 +1,81 @@
 ---
-title: 'Domain Setup'
-description: 'Learn how to set up and manage domains and subdomains on XA Hosting, including DNS configuration, domain mapping, and best practices to ensure your server is accessible and properly linked.'
-icon: 'link'
+title: "Domain Setup"
+description: "Learn how to set up and manage domains and subdomains on XA Hosting, including DNS configuration, domain mapping, and best practices to ensure your server is accessible and properly linked."
+icon: "link"
 ---
 
 ## Custom Domain Setup
-Learn how to connect a custom domain to your server. (e.g. mc.xahosting.co)
 
-<Tip>We would recommend **[Cloudflare](https://cloudflare.com/)** for this setup, as changes apply within minutes!</Tip>
+Learn how to connect a custom domain to your server. (e.g. mc.xahosting.com)
+
+<Tip>
+  We would recommend [**Cloudflare**](https://cloudflare.com/) for this setup, as changes apply within minutes!
+</Tip>
 
 <Steps>
-    <Step title="A Record">
-        - **Type:** A
-        - **Name:** `@` (optional; add a prefix like `mc` for mc.xahosting.co)
-        - **IPv4 Address:** Server IP (Numerical)
-        - **Proxy Status:** DNS Only
-        - **TTL:** Auto
+  <Step title="A Record">
+    - **Type:** A
+    - **Name:** `@` (optional; add a prefix like `mc` for mc.xahosting.com)
+    - **IPv4 Address:** Server IP (Numerical)
+    - **Proxy Status:** DNS Only
+    - **TTL:** Auto
 
-        <img
-        style={{ borderRadius: '0.5rem' }}
-        src="/public/images/image-13.png"
-        />
-    </Step>
-    
-    <Step title="SRV Record">
-        - **Type:** SRV
-        - **Name:** `_minecraft._tcp`
-        - **Priority:** 0
-        - **Weight:** 0
-        - **TTL:** Auto
-        - **Port:** Your Server Port
-        - **Target** Full host `(e.g. mc.xahosting.co or xahosting.co)`
+    <img
+      style={{ borderRadius:"0.5rem" }}
+      src="/public/images/image-13.png"
+    />
+  </Step>
+  <Step title="SRV Record">
+    - **Type:** SRV
+    - **Name:** `_minecraft._tcp`
+    - **Priority:** 0
+    - **Weight:** 0
+    - **TTL:** Auto
+    - **Port:** Your Server Port
+    - **Target** Full host `(e.g. mc.xahosting.com or xahosting.com)`
 
-        <img
-        style={{ borderRadius: '0.5rem' }}
-        src="/public/images/image-14.png"
-        />
-    </Step>
-    
-    <Step title="Contact Support">
-      You may need to wait anywhere from 5 minutes up to 24 hours for the changes to take effect. We recommend checking every hour. If you need further assistance, please open a ticket on our **[Discord](https://discord.xahosting.co/)** or through the **[Billing Portal](https://billing.xahosting.co/tickets)**."
-    </Step>
+    <img
+      style={{ borderRadius:"0.5rem" }}
+      src="/public/images/image-14.png"
+    />
+  </Step>
+  <Step title="Contact Support">
+    You may need to wait anywhere from 5 minutes up to 24 hours for the changes to take effect. We recommend checking every hour. If you need further assistance, please open a ticket on our [**Discord**](https://discord.xahosting.co/) or through the [**Billing Portal**](https://billing.xahosting.co/tickets)."
+  </Step>
 </Steps>
 
 ## Subdomain Setup
 
 <Steps>
-    <Step title="Go to the Game Panel">
-        - Open **[panel.xahosting.co](https://panel.xahosting.co)** in your browser.  
-        - Select your server.
-    </Step>
-    
-    <Step title="Navigation">
+  <Step title="Go to the Game Panel">
+    - Open [**panel.xahosting.co**](https://panel.xahosting.co) in your browser.
+    - Select your server.
+  </Step>
+  <Step title="Navigation">
     Scroll down and click **More**, then select **Subdomain**. After that, go to the top-right corner and press `Create Subdomain`.
 
     <img
-        style={{ borderRadius: '0.5rem' }}
-        src="/public/images/image-15.png"
+      style={{ borderRadius:"0.5rem" }}
+      src="/public/images/image-15.png"
     />
-    </Step>
-
-    <Step title="Create a Subdomain">
+  </Step>
+  <Step title="Create a Subdomain">
     Enter your desired subdomain prefix (e.g., `llama.xahost.co`), select a domain from our available options, choose the allocation, and click **Create**.
+
     <img
-        style={{ borderRadius: '0.5rem' }}
-        src="/public/images/image-16.png"
+      style={{ borderRadius:"0.5rem" }}
+      src="/public/images/image-16.png"
     />
 
     Your subdomain will be ready to use!
-    
+
     <img
-        style={{ borderRadius: '0.5rem' }}
-        src="/public/images/image-17.png"
+      style={{ borderRadius:"0.5rem" }}
+      src="/public/images/image-17.png"
     />
-    </Step>
+  </Step>
 </Steps>
 
-<Check>You have a domain/subdomain setup on your server and can use that to join!</Check>
+<Check>
+  You have a domain/subdomain setup on your server and can use that to join!
+</Check>
